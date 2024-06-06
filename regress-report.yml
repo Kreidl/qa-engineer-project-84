@@ -202,3 +202,19 @@ bugreports:
     actual-result: |
       Отображаются товары, которые есть в наличии
       Подтверждение на скрине https://github.com/Kreidl/qa-engineer-project-84/blob/main/screen24.jpg
+
+- summary: |
+      Нарушение вёрстки страницы с корзиной
+    environment: |
+      ОС Windows 11
+      Google Chrome версия 122.0.6261.95 (Официальная сборка), (64 бит)
+    steps-to-reproduce: |
+      1. Открыть каталог товаров
+      2. Добавить товар с длинным названием
+      3. Добавить товар с коротким названием
+      4. Нажать "Cart"
+    expected-result: |
+      Все значения (название, количество, цена) расположены ровно
+    actual-result: |
+      Количество товара и кнопки "Delete" отображаются криво
+      Подтверждение на скрине https://github.com/Kreidl/qa-engineer-project-84/blob/main/screen25.jpg
