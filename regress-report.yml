@@ -203,7 +203,7 @@ bugreports:
       Отображаются товары, которые есть в наличии
       Подтверждение на скрине https://github.com/Kreidl/qa-engineer-project-84/blob/main/screen24.jpg
 
-- summary: |
+  - summary: |
       Нарушение вёрстки страницы с корзиной
     environment: |
       ОС Windows 11
