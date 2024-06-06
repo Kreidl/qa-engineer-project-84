@@ -467,8 +467,7 @@
   requirement: |
      С галочкой поля "In Stock" должны отображаться товары в наличии, без галочки поля "In Stock" должны отображаться товары, которых в наличии нет
   prerequisites: |
-    Открыт каталог товаров https://hexlet-products-store.vercel.app/
-    Стоит галочка в поле "In Stock"
+    Открыт каталог товаров https://hexlet-products-store.vercel.app/, стоит галочка в поле "In Stock"
   test-data: |
     Чекбокс "In Stock"
   steps:
