@@ -302,3 +302,18 @@
   actual-result: |
     Каталог показал товар, цена которого с учётом скидок меньше указанного в фильтре минимального значения
     Подтверждение на скрине https://github.com/Kreidl/qa-engineer-project-84/blob/main/screen19.jpg
+
+- summary: |
+    При обновлении страницы магазина на русском языке, магазин открывается на английском
+  environment: |
+    ОС Windows 11
+    Google Chrome версия 122.0.6261.95 (Официальная сборка), (64 бит)
+  steps-to-reproduce: |
+    1. Нажать "Language"
+    2. Выбрать "Russian"
+    3. Обновить страницу
+  expected-result: |
+    Сайт открылся на русском языке
+  actual-result: |
+    Сайт открылся на английском языке
+    Подтверждение на скрине https://github.com/Kreidl/qa-engineer-project-84/blob/main/screen23.jpg
