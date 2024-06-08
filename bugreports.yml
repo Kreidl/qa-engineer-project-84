@@ -143,19 +143,6 @@
     Подтверждение на скрине https://github.com/Kreidl/qa-engineer-project-84/blob/main/screen8.jpg
 
 - summary: |
-    Нет возможности ввода количества товара
-  environment: |
-    ОС Windows 11
-    Google Chrome версия 122.0.6261.95 (Официальная сборка), (64 бит)
-  steps-to-reproduce: |
-    Зайти на страницу любого товара
-  expected-result: |
-    Пользователь может ввести необходимое ему количество товара
-  actual-result: |
-    Количество товаров прописано без возможности ввода необходимого пользователю количества товаров
-    Подтверждение на скрине https://github.com/Kreidl/qa-engineer-project-84/blob/main/screen9.jpg
-
-- summary: |
     В корзине количество товара отображается криво
   environment: |
     ОС Windows 11
