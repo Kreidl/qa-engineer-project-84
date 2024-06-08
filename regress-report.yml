@@ -64,7 +64,7 @@ test-cases:
     status: pass
 
   - summary: |
-      Проверка запроса при оформлении заказа
+      Проверка успешного оформления заказа
     status: fail
 
   - summary: |
